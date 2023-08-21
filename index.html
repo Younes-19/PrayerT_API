@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap File css -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- css_File -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Jomhuria&family=Tajawal:wght@200;300;400;500;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="hero">
+    <video id="background-video" autoplay loop muted plays-inline>
+      <source src="./img/video.mp4" type="video/mp4">
+  </video>
+
+  
+    <div class="content">
+      <div class="container">
+          <div class="date pb-5 text-white position-relative">
+              <h4 class="pb-2" id="date_EN"> الجمعة  1/1/2023  </h4>
+              <h4 id="date_AR"> الجمعة  1/1/1444 </h4>
+          </div>
+
+          <div class="city text-center  position-relative ">
+              <h4 class="text-white pb-3">اختر المدينة</h4>
+              <select id="citites-select"  class=" select_city fs-5 text-white pe-2" name="" id="">
+
+              </select>
+          </div>
+
+          <div class="city_Name text-center text-white position-relative">
+              <h1 id="nameOfCity" class="name">مكة المكرمة</h1>
+          </div>
+
+          <div class=" text-center text-white position-relative">
+            <h1 id="" class="Time-now">04:50</h1>
+        </div>
+
+          <div class=" time_pray text-center">
+              <div class="row">
+                  <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5>الفجر</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <img class="img img-fluid" src="./img/3.svg" alt="">
+                                  </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Fajr_Time"> 4:00 </h1>
+                        </div>
+                      </div>
+                  </div>
+
+                    <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5 style="font-size: 19px;">الشروق</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                    <img class="img img-fluid" src="./img/3.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Sunrise_Time"> 4:00 </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5>الظهر</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                    <img class="img img-fluid" src="./img/3.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Dhuhr_time"> 4:00 </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5>العصر</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                    <img class="img img-fluid" src="./img/3.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Asr_time"> 4:00 </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5>المغرب</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                    <img class="img img-fluid" src="./img/3.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Maghrib_time"> 4:00 </h1>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2 col-sm-6 col-12">
+                      <div class="card " >
+                          <div class="top">
+                              <div class="row">
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                      <h5>العشاء</h5>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6 col-6">
+                                    <img class="img img-fluid" src="./img/3.svg" alt="">
+                                </div>
+                              </div>
+                          </div>
+                        <div class="card-body">
+                          <h1 id="Isha_time"> 4:00 </h1>
+                        </div>
+                      </div>
+                    </div>
+                    
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+  </div>
+
+
+    
+
+  <!-- bootstrap File js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- axios -->
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <!-- js_File -->
+  <script src="JS/main.js"></script>
+</body>
+</html>
